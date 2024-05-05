@@ -1,7 +1,7 @@
 version: "3"
 services:
     server:
-        image: itzg/minecraft-server
+        image: itzg/minecraft-server:java17-alpine
         ports:
             - "25565:25565"
         volumes:
@@ -9,8 +9,8 @@ services:
         environment:
             EULA: "TRUE"
             VERSION: "1.20.1"
-            TYPE: "NEOFORGE"
-            NEOFORGE_VERSION: "latest"
+            TYPE: NEOFORGE
+            NEOFORGE_VERSION: "47.1.105"
             PACKWIZ_URL: "https://raw.githubusercontent.com/mxxntype/Cloudburst/main/pack.toml"
 
             # Perfomance settings.
@@ -45,4 +45,3 @@ services:
                 /whitelist on
                 /whitelist add mxxntype
                 /op mxxntype
-

@@ -1,3 +1,0 @@
-mods/DistantHorizons-2.0.3-a-dev-1.20.1.jar filter=lfs diff=lfs merge=lfs -text
-mods/oculus-mc1.20.1-1.6.15aDH.jar filter=lfs diff=lfs merge=lfs -text
-resourcepacks/Lopy-Create-Sophisticated-Backpacks.zip filter=lfs diff=lfs merge=lfs -text
