@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "219c430123011ca28340136fe4d2a62980f3b8695b430a2e802ba18157cbd5a2"
+
+[[files]]
 file = "config/defaultoptions-common.toml"
 hash = "fd893ef796d2930bd298466dfd6e3b2be963247954c25d4566626be43ad5f8a4"
 
@@ -347,6 +351,11 @@ hash = "9b39120774298d5be67a9090822a4aeb20c333c99c120d3fca0d0c2dcae61c4d"
 metafile = true
 
 [[files]]
+file = "mods/explosive-enhancement.pw.toml"
+hash = "afe4a2446679827ede0d3a0a3ebc5004bffd98142642a65b8e72ee6163334bd5"
+metafile = true
+
+[[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
 hash = "e82fd0eb13f257d5ca4d5dc931f7e2124dab61c73a25bcf00380d3f73344e7a5"
 metafile = true
@@ -394,6 +403,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "e5c581d917fa5d0d57c20ddf80e13e4f1b7b1c94b65955741566b9fef9f2f7f5"
+metafile = true
+
+[[files]]
+file = "mods/grind-enchantments.pw.toml"
+hash = "cda407574e2b7334479faf8276e8810eba1662c69a4dbd02c72dbef335a67f08"
 metafile = true
 
 [[files]]
@@ -691,8 +705,18 @@ hash = "792d9f06ecd08a3b5fcfab4867a899061df92a4695cc6bea6c4dc4afd960720d"
 metafile = true
 
 [[files]]
+file = "mods/starlight-forge.pw.toml"
+hash = "f343ca4469e393d4055137a1dc228441a80be2a755d634001e037837dd7a56b6"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "51d5ed928f1e8800a9dd42b44e0f8a4c547780dd763a91748812312b5d29f371"
+metafile = true
+
+[[files]]
+file = "mods/tax-free-levels.pw.toml"
+hash = "5ff46c787194011f5d260f07abd2121ff8556b1f51e71d9d699d087a4b391256"
 metafile = true
 
 [[files]]
@@ -753,6 +777,11 @@ metafile = true
 [[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "7d5dba4cf4a48ae96d728377767c5cd1b3d743967255b987d272c6f884372463"
+metafile = true
+
+[[files]]
+file = "mods/wakes.pw.toml"
+hash = "fab6ac1665f022c0ca72c73ed0974049f5453b8f4f280092b4aa5ac773fed5c2"
 metafile = true
 
 [[files]]

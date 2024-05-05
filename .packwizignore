@@ -5,3 +5,4 @@
 docker-compose.yml
 subliminal-server
 data/
+Makefile

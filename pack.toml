@@ -1,12 +1,12 @@
 name = "Cloudburst"
 author = "mxxntype"
-version = "0.1.1"
+version = "0.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "74ff6d5b96930e432c721bfbcfeedeaab41ab120506a2b4e6b2365405d6d783e"
+hash = "2344cf36b410cb5935bd6782c00a412f02f582aa6ff1aaaaa04b3e2acb9345a8"
 
 [versions]
 minecraft = "1.20.1"

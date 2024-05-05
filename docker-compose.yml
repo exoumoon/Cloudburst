@@ -1,0 +1,48 @@
+version: "3"
+services:
+    server:
+        image: itzg/minecraft-server
+        ports:
+            - "25565:25565"
+        volumes:
+            - ./data:/data
+        environment:
+            EULA: "TRUE"
+            VERSION: "1.20.1"
+            TYPE: "NEOFORGE"
+            NEOFORGE_VERSION: "latest"
+            PACKWIZ_URL: "https://raw.githubusercontent.com/mxxntype/Cloudburst/main/pack.toml"
+
+            # Perfomance settings.
+            MEMORY: "12G"
+            USE_AIKAR_FLAGS: "true"
+            ENABLE_AUTOPAUSE: "true"
+
+            # Gamemode options.
+            MODE: "survival"
+            DIFFICULTY: "hard"
+            MAX_PLAYERS: "4"
+            ALLOW_FLIGHT: "true"
+
+            # What's visible in the server listing.
+            MOTD: "Cloudburst | NeoForge 1.20.1"
+            ICON: "https://img.icons8.com/color/100/minecraft-logo--v1.png"
+
+            # Let in players without a Minecraft license.
+            ONLINE_MODE: "false"
+
+            # Using teams, run commands for new players.
+            RCON_CMDS_STARTUP: |-
+                /team add new_team
+                /team add old_team
+            RCON_CMDS_ON_CONNECT: |-
+                /team join new_team @a[team=]
+                /clear @a[team=new_team]
+                /team join old_team @a[team=new_team]
+
+            # Whitelist myself.
+            RCON_CMDS_FIRST_CONNECT: |-
+                /whitelist on
+                /whitelist add mxxntype
+                /op mxxntype
+
