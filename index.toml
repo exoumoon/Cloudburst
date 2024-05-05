@@ -1,6 +1,58 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "fd893ef796d2930bd298466dfd6e3b2be963247954c25d4566626be43ad5f8a4"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "b6512c19ae899c79f9872f55bf5c219d3a5699cdc065f24d8aa2a951a5f4b535"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "200d2c6a5b356efd03d9be1f10af2fcd893fa7efefbfe8f0b9512871a599199c"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "8369dad0bb0ef46c3239469db2ff68ba03a9fc9c8f16135b3f959809914ffdb1"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "47b0a4117749ba3d2a449e5f4d0714304ceda19294ff12bd0600e62d313fa627"
+
+[[files]]
+file = "config/emi.css"
+hash = "666ea574ababe87173802f9ebbb219a17f642d1490b5d49d9e8876e2e9874586"
+
+[[files]]
+file = "config/forge-client.toml"
+hash = "400fd2869b9a8e30b2b768f10adad096f7a9dab25a87732583c67c0750524970"
+
+[[files]]
+file = "config/item_obliterator.json5"
+hash = "f2826ef60b5faddf50c61bcc3cfb36e82307ec65693d009ed27b2e00b0cc5c16"
+
+[[files]]
+file = "config/lootbeams-client.toml"
+hash = "19c88812966ff1c6d02c07a6b1300ce86fbd19ecc70faed46b0360864bfb415b"
+
+[[files]]
+file = "config/mythicmetals-config.json5"
+hash = "44654189e50465d2e257926e6bd538360335729b6fb2520b30f2c52cc8939a8d"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "e36f67afd6496ea9b51133924fc9cf2f15168083968a7d79f6c5dc53942c3689"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "29982fe70a06d06f6060cbd55473cef1d7b28ee582312946427b0737da8360e5"
+
+[[files]]
+file = "config/resourcepackoverrides.json"
+hash = "3de120bfd72a03d6953a777176dbfd6b35f129223e4cd27f6c2b2ddb03b2f808"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b0e740787c9fd78106f3052bec391127ace8a0297e75734470b3c99f502f11e9"
 metafile = true
@@ -57,6 +109,11 @@ metafile = true
 [[files]]
 file = "mods/badpackets.pw.toml"
 hash = "b1e70c01c737670dab9430ea844053bdc0ffbb62519ea8846deaeb3c49de9655"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "1447df8a4bd1fd2cce2ae71f900f3d1f1626baa2fe37c877cef19549a4101c36"
 metafile = true
 
 [[files]]
@@ -207,6 +264,11 @@ metafile = true
 [[files]]
 file = "mods/decorative-blocks.pw.toml"
 hash = "740e8bc5f6560bebe40b27bcc9fb6bc1adc2dbd489338cc70b00176427b3b5a3"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "91c2538d726a12623122d1a2945a6ad3d2d5b290d43c72149f21af560e8465eb"
 metafile = true
 
 [[files]]
@@ -485,6 +547,11 @@ hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
 metafile = true
 
 [[files]]
+file = "mods/no-telemetry.pw.toml"
+hash = "c3190dcd456e0e009b62c5a54ad7fdf27f0311f4912b2d7d1c4a43ab264648ab"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
 hash = "26ca76ce6d17ce793960ef92cf1933f0e2330a425ff4f048d7d094f2a133f508"
 metafile = true
@@ -604,11 +671,6 @@ hash = "e9bf45458454e7ceaa9fc33b271b9f408f27b69d5660652a5f7464fad94bb733"
 metafile = true
 
 [[files]]
-file = "mods/smooth-swapping.pw.toml"
-hash = "9f38461b4e2c233243c2149dd495f9992672cba45088557a29f93dc3b8cd12f4"
-metafile = true
-
-[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "3f6894af067410277d2281acd6a674575694eb65e4e3514e4d96e32b06e4e0e2"
 metafile = true
@@ -714,6 +776,10 @@ hash = "86f3fe9dfda1e20b94ab08770214641e16882e314230d250f2f854a2051b4bde"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "4b6eea51810cd98201d030cfe447bc8328d60d376a542fb26f8b1941e4815e36"
+
+[[files]]
 file = "resourcepacks/Lopy-Create-Sophisticated-Backpacks.zip"
 hash = "a6a782f3a471a5ea283638d533ba8a53db7b380c0fcaac8b95154351ebc58589"
 
@@ -725,6 +791,16 @@ metafile = true
 [[files]]
 file = "resourcepacks/bettervanillabuilding.pw.toml"
 hash = "f36266ffd93de72d7109a620693c9b35cc361736bdc4852241005adbd4c0515b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-darkmode.pw.toml"
+hash = "9730e890d29a8549c887b8a3de6971d272539ab540055008725d1369a483ab1d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cursive-font.pw.toml"
+hash = "312b3163530a974d286af78cab172f9cba56aee1ad874f6d03d9370e5f7ac8ea"
 metafile = true
 
 [[files]]
@@ -776,3 +852,21 @@ metafile = true
 file = "resourcepacks/xalis-potions-addon.pw.toml"
 hash = "7751a6838974ed80bfa3e9f2157a48b867c04a5d234d485b0e999f23b179fd0f"
 metafile = true
+
+[[files]]
+file = "shaderpacks/Bliss-Shader-main.pw.toml"
+hash = "94abd8e530b018c1cc74c403239c71a897a8ece4ed95e35b7944ea3a675a8060"
+metafile = true
+
+[[files]]
+file = "shaderpacks/Bliss-Shader-main.zip.txt"
+hash = "1c2060a73e72475ab20aeb4706bd23d517a418c8a2f28b44d90d49ba71443fc9"
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "a2469bd8aa76676f6d186935dbffd7bdc8a56212fa47ab628ea7def6eb330ea8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon_v1.0a.zip.txt"
+hash = "2ddeb6f5b1053d3ccfee39d4a50e32d32b1292fd89ae9094097ff67d9525e7d7"

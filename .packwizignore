@@ -1,7 +1,7 @@
 *.md
 *.mrpack
+.gitkeep
 /*.zip
-options.txt
 docker-compose.yml
 subliminal-server
 data/

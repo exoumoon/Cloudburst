@@ -1,0 +1,13 @@
+name = "Cursive Font"
+filename = "Cursive Font.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Jua9AM1l/versions/rQdachAg/Cursive%20Font.zip"
+hash-format = "sha1"
+hash = "95487cdd05634e88c56501cdd2e95bf212c1e058"
+
+[update]
+[update.modrinth]
+mod-id = "Jua9AM1l"
+version = "rQdachAg"
