@@ -1,0 +1,13 @@
+name = "Tools & Trims"
+filename = "Tools&Trims_0.1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iYgLC1ZC/versions/bLNNSDHX/Tools%26Trims_0.1.0.zip"
+hash-format = "sha1"
+hash = "c443e3dc32b40e9f011943dc913e1771cb8bf18f"
+
+[update]
+[update.modrinth]
+mod-id = "iYgLC1ZC"
+version = "bLNNSDHX"

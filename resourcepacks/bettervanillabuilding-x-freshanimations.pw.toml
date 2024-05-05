@@ -1,0 +1,13 @@
+name = "BetterVanillaBuilding x FreshAnimations"
+filename = "BVB_x_FreshAnimations_v1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JXI9wTJf/versions/UsN5ebVO/BVB_x_FreshAnimations_v1.2.zip"
+hash-format = "sha1"
+hash = "2ee07500f6b29b87ae88e301edf053c34b3fdbf8"
+
+[update]
+[update.modrinth]
+mod-id = "JXI9wTJf"
+version = "UsN5ebVO"

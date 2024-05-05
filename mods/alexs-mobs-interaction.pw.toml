@@ -1,0 +1,13 @@
+name = "Alex's Mobs Interaction"
+filename = "alexsmobsinteraction-2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cQPcBgTD/versions/fYLA70Ys/alexsmobsinteraction-2.3.jar"
+hash-format = "sha1"
+hash = "7e890e8bfbd72c4a0eaa49db3b54e3ca407a7381"
+
+[update]
+[update.modrinth]
+mod-id = "cQPcBgTD"
+version = "fYLA70Ys"

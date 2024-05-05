@@ -1,0 +1,13 @@
+name = "Refined Enchants"
+filename = "RefinedEnchants_0.1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lZA0RkYb/versions/65Ihq8zT/RefinedEnchants_0.1.0.zip"
+hash-format = "sha1"
+hash = "d08f6d688383f3ce39d5ebd85068fec22b5e2a43"
+
+[update]
+[update.modrinth]
+mod-id = "lZA0RkYb"
+version = "65Ihq8zT"

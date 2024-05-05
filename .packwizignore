@@ -1,0 +1,7 @@
+*.md
+*.mrpack
+/*.zip
+options.txt
+docker-compose.yml
+subliminal-server
+data/
